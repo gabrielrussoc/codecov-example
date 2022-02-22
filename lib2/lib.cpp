@@ -7,3 +7,5 @@
 void lib2::somethingElse() {
   common::h();
 }
+
+void lib2::untested() {}
