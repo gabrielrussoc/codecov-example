@@ -10,3 +10,8 @@ cc_test(
     srcs = ["test.cpp"],
     deps = [":lib"],
 )
+
+cc_test(
+    name = "test2",
+    srcs = ["test2.cpp"]
+)
