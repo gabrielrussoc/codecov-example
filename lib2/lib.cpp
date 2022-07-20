@@ -10,6 +10,9 @@ void newcode() {
     }
 }
 
+void morecode() {
+    std::cout << "yes";
+}
 
 void lib2::somethingElse() {
   common::h();
