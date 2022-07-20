@@ -1,0 +1,10 @@
+Only works on Linux currently (something to do with C++ toolchains)
+
+Full coverage: ./full_coverage.sh
+
+Lib2 coverage: ./partial_coverage.sh
+
+Remove non affected files: ./diff_cover.py
+
+Upload to codecov: ./upload_cov.sh
+    (requires codecov binary available)
